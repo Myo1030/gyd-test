@@ -1,0 +1,14 @@
+{
+	"root_files": [
+		".watchmanconfig"
+	],
+	"root_restrict_files": [
+		".git"
+	],
+	"ignore_dirs": [
+		"node_modules",
+		"src",
+		".git",
+		".idea"
+	]
+}

@@ -1,0 +1,45 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+		 "tslint:recommended",
+		 "tslint-react"
+    ],
+    "rules": {
+		 "indent": [true, "tabs", 2],
+		 "max-classes-per-file": [false, 1],
+		 "max-line-length": [false],
+		 "interface-name": false,
+		 "jsx-no-multiline-js": false,
+		 "jsx-no-lambda": false,
+		 "jsx-boolean-value" : [true, "never"],
+		 "member-ordering": [true, {"order": "fields-first"}],
+		 "no-console": false,
+		 "no-default-export": true,
+		 "no-namespace": [true, "allow-declarations"],
+		 "object-literal-sort-keys": false,
+		 "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
+		 "semicolon": [true, "always", "strict-bound-class-methods"],
+		 "typedef": [true, "parameter", "member-variable-declaration"],
+		 "no-shadowed-variable": false,
+		 "typedef-whitespace": [
+			 true,
+			 {
+				 "call-signature": "nospace",
+				 "index-signature": "nospace",
+				 "parameter": "nospace",
+				 "property-declaration": "nospace",
+				 "variable-declaration": "nospace"
+			 },
+			 {
+				 "call-signature": "onespace",
+				 "index-signature": "onespace",
+				 "parameter": "onespace",
+				 "property-declaration": "onespace",
+				 "variable-declaration": "onespace"
+			 }
+		 ],
+		 "array-type": false,
+		 "no-bitwise": false
+	 },
+	"rulesDirectory": []
+}
