@@ -16,6 +16,7 @@ export class LinksScreen extends React.Component {
 						[
 							"https://react-native-training.github.io/react-native-elements/docs/overview.html",
 							"https://facebook.github.io/react-native/docs/scrollview",
+							"https://docs.expo.io/versions/latest/",
 						].map((l, index) => <Text key={index} style={styles.link}>{l}</Text>)
 					}
 				</ScrollView>
