@@ -21,7 +21,8 @@
 		"types": [
 			"react",
 			"react-native",
-			"jest"
+			"jest",
+			"lodash"
 		]
 	},
 	"include": [
